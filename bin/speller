@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+require 'speller'
+puts Speller.check ARGV[0]
